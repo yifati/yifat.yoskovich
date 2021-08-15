@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    color:rgb(12, 12, 12);
+}
+
+:root{
+    --brown1: #d9ad81;
+    --yellow: #fef9b9;
+    }
+    
+    h1{
+        color: var(--brown1);
+        font-size: 60px;
+    }
+
+    @font-face {
+        font-family: myfirstfont;
+        src: url(DancingScript-Regular.ttf);
+    }
+
+   body {
+        background-color: var(--brown1);
+        background-image: url("try`.jpg");
+        background-repeat: no-repeat;
+        background-size: 1120px;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: myfirstfont;
+        font-size: 20px;
+        }
+
+        .grid-container{
+            display: grid;
+            background-color: burlywood;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-size: 40px;    
+        }
+        .item2{
+            grid-column-start: 2;
+            grid-column-end: 2;
+            font-size: 40px;
+        }
+        .item3{
+            grid-column-start: 3;
+            grid-column-end: 3;
+            font-size: 40px;
+        }
+        .item4{
+            grid-column-start: 4;
+            grid-column-end: 4;
+            font-size: 40px;
+        }
+        .item5{
+            grid-column-start: 5;
+            grid-column-end: 5;
+            font-size: 40px;
+        }
+        
+    
+        
+    
