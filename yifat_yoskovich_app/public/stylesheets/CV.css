@@ -1,0 +1,62 @@
+*{
+    text-align: center;
+}
+
+:root{
+    --brown1: #d9ad81;
+    --yellow: #fef9b9;
+    }
+    
+    h1{
+        color: var(--brown1);
+        font-size: 60px;
+    }
+
+    @font-face {
+        font-family: myfirstfont;
+        src: url(../fonts/DancingScript-Regular.ttf);
+    }
+
+   
+      body{
+        background-color: blanchedalmond;
+        font-family: myfirstfont;
+        animation-name: backgroundChange;
+        animation-duration: 6s;
+        }
+    
+
+        .grid-container{
+            display: grid;
+            background-color: burlywood;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-size: 40px;    
+        }
+        .item2{
+            grid-column-start: 2;
+            grid-column-end: 2;
+            font-size: 40px;
+        }
+        .item3{
+            grid-column-start: 3;
+            grid-column-end: 3;
+            font-size: 40px;
+        }
+        .item4{
+            grid-column-start: 4;
+            grid-column-end: 4;
+            font-size: 40px;
+        }
+        .item5{
+            grid-column-start: 5;
+            grid-column-end: 5;
+            font-size: 40px;
+        }
+        
+        @keyframes backgroundChange{
+            0% {background-image: url(../images/try`.jpg);}
+            100% {background-image: url(../images/new.jpg);}
+        }
